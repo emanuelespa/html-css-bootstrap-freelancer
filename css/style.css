@@ -72,8 +72,8 @@ ul > li {
 .vertical-align{
   height: 20px;
   line-height: 20px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .glyphiconglyphicon{
@@ -89,9 +89,29 @@ ul > li {
   background-color: blue;
   margin-bottom: 30px;
 }
+#portfolio{
+  text-align: center;
+}
+
  .img {
    height: auto;
    width: 100%;
+ }
+
+.black{
+  color: #2C3E50;
+}
+
+.border-black{
+  height: 1px;
+  width: 10%;
+  border: 2px solid #2C3E50;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+ /* about */
+ #about{
+   text-align: center;
  }
 /* FOOTER */
 
