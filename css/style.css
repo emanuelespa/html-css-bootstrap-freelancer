@@ -1,40 +1,97 @@
-/* sezione header */
-.bg_color{
-  background-color: blue;
+/* MIX */
+
+.p_top_80 {
+  padding-top: 80px;
+}
+.p_bottom_80 {
+  padding-bottom: 80px;
 }
 
+.bg_green {
+  background-color: #1ABC9C;
+}
 
+.bg_light_blue {
+  background-color: #2C3E50;
+}
 
+.wrapper_small {
+  max-width: 800px;
+  margin: auto;
+}
 
+/* HEADER */
 
+/* header top */
+.header_top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
+}
 
-
-/* sezione about */
-.inline-block{
+ul > li {
   display: inline-block;
-}
-
-.center{
-  text-align: center;
-}
-
-/* sezione contact me */
-.dimension{
-
-}
-
-/* sezione around the web */
-
-
-/* nota footer */
-footer{
-  background-color:
-  text-align: center;
-  height:
-  line-height:
-  vertical-align: middle;
+  padding-right: 15px;
 }
 
 .white{
   color: white;
+  font-weight: bold;
+}
+
+/* jumbo */
+.jumbo {
+  margin-top: 70px;
+  padding: 70px 0;
+}
+.jumbo_text {
+  max-width: 900px;
+  padding: 0 15px;
+  margin: auto;
+  text-align: center;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.border{
+  height: 1px;
+  width: 10%;
+  border: 2px solid white;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+.vertical-align{
+  height: 20px;
+  line-height: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.glyphiconglyphicon{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* SECTIONS */
+
+/* portfolio */
+
+.box_portfolio {
+  height: 250px;
+  background-color: blue;
+  margin-bottom: 30px;
+}
+
+/* FOOTER */
+
+.footer_bottom {
+  background-color: blue;
+  color: #fff;
+  padding: 20px 0;
 }
