@@ -70,8 +70,8 @@ ul > li {
 .vertical-align{
   height: 20px;
   line-height: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .glyphiconglyphicon{
@@ -87,7 +87,10 @@ ul > li {
   background-color: blue;
   margin-bottom: 30px;
 }
-
+ img{
+   height: 250px;
+   width: 100%;
+ }
 /* FOOTER */
 
 .footer_bottom {
