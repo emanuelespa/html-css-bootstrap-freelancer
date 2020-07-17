@@ -272,6 +272,13 @@ p {
 .margin-bottom {
   margin-bottom: 50px;
 }
+
+.form-lettere{
+  font-weight: 400;
+  color: #495057;
+  font-style: normal;
+}
+
 /* FOOTER */
 
 
